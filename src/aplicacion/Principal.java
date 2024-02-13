@@ -13,8 +13,8 @@ public class Principal {
         System.out.println("la suma de los numeros de la lista es "+Funciones.sumaListaNumeros(lista));
         //ejercicio 4 apartado 5    
         System.out.println("la media de los numeros de la lista es "+Funciones.mediaListaNumeros(lista));
-        //ejercicio 4 apartado 6 NO SE COMO HACERLO
-        System.out.println("la desviacion tipica de los numeros de la lista es ");
+        //ejercicio 4 apartado 6
+        System.out.println("la desviacion tipica de los numeros de la lista es "+ Funciones.desviacionTipica(lista));
         //ejercicio 4 apartado 7
         System.out.println("La suma de los primeros números pares hasta n es "+Funciones.sumaPares(9));
         //ejercicio 4 apartado 8

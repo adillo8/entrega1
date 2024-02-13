@@ -55,11 +55,13 @@ public class Funciones {
     }
 
     //ejercicio 4 apartado 6
-    public static void desviacionTipica(){
-        //COMO SE HACE ESTO????
+    public static double desviacionTipica(int[] array){
+        double acumulador = 0;
+        for(int i = 0; i < array.length; i++){
+            acumulador += Math.pow(array[i] - mediaListaNumeros(array),2);
+        }
+        return Math.sqrt(acumulador/array.length);
 
-        
-        
     }
 
     //ejercicio 4 apartado 7
